@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { User, UserInput } from '../types/User';
 import UserForm from '../components/UserForm';
 import UserTable from '../components/UserTable';
-import '../styles/UserManagement.css';
+import '../styles/Usermanagement.css';
 import Pagination from '../components/Pagination';
 
 const UserManagement = () => {
