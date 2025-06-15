@@ -1,0 +1,71 @@
+.stitched-container {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    margin-top: 50px;
+  }
+  
+  .stitched-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0b0404;
+  }
+  
+  .stitched-container p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .instagram-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fafafa;
+  }
+  
+  .instagram-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .instagram-photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 15px;
+  }
+  
+  .instagram-link {
+    text-decoration: none;
+    color: #fffcfc;
+  }
+  
+  .instagram-photos img {
+    width: 100%;
+    height: inherit;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+    aspect-ratio: 1 / 1;
+  }
+  
+  @media (max-width: 1024px) {
+    .instagram-photos img {
+      width: 23%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .instagram-photos img {
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .instagram-photos img {
+      width: 48%;
+    }
+  }
+  

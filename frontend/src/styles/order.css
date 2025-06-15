@@ -1,0 +1,16 @@
+
+
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.order-list {
+    flex-grow: 1;
+}

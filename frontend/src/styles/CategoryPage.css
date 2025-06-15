@@ -1,0 +1,82 @@
+.category-product-container .category-product-card {
+  overflow: hidden;
+  max-width: 320px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.category-product-container .category-product-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+} /* 🛠 Đã thêm dấu } bị thiếu ở đây */
+
+.category-product-container .category-product-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.category-product-container .category-product-card p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.category-product-container .category-product-card .new-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: green;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.category-product-container .category-product-card:hover {
+  transform: scale(1.05);
+}
+
+.category-product-container .category-product-card .category-buy-btn {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  margin-top: 0;
+}
+
+.category-product-container .category-product-card:hover .category-buy-btn {
+  opacity: 1;
+  transform: translateY(0);
+  height: auto;
+  pointer-events: auto;
+  margin-top: 10px;
+}
+
+.category-product-container .category-product-card .category-buy-btn button {
+  background-color: #414141;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-product-container .category-product-card .category-buy-btn button:hover {
+  background-color: #379eff;
+  color: white;
+}

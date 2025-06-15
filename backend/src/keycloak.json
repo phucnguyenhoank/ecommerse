@@ -1,0 +1,10 @@
+{
+  "realm": "ecommserse",
+  "auth-server-url": "http://localhost:8080",
+  "ssl-required": "external",
+  "resource": "backend-client",
+  "credentials": {
+    "secret": "8pGWjYNMKwjvqOGIXgdd1U3N5rzlthC0"
+  },
+  "confidential-port": 0
+}

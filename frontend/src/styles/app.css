@@ -1,0 +1,12 @@
+/* app.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Tự động đẩy phần nội dung chiếm hết phần giữa */
+  .app-container > main {
+    flex: 1;
+  }
+  

@@ -1,0 +1,33 @@
+.my-account {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Đảm bảo chiều cao tối thiểu bằng viewport */
+  padding-top: 60px; /* Đẩy xuống để tránh bị navbar che */
+}
+
+.account-content {
+  display: flex;
+  flex-grow: 1; /* Chiếm toàn bộ không gian trống để đẩy footer xuống */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.account-details {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Đảm bảo footer luôn ở cuối trang */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

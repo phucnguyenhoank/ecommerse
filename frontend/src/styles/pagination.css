@@ -1,0 +1,30 @@
+/* Phân trang tổng */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0 80px;
+  }
+  
+  /* Các nút liên kết phân trang */
+  .pagination a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+    margin: 10px 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Trang đang được chọn */
+  .pagination a.active {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Hover vào các nút không active */
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  

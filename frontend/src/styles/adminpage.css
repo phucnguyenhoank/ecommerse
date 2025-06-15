@@ -1,0 +1,13 @@
+.main-content {
+    margin-left: 250px; /* Phải trùng với width của sidebar */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  

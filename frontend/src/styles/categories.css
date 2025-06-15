@@ -1,0 +1,35 @@
+/* Container chứa trang Categories */
+.categories-container {
+    padding: 40px;
+    background-color: #fff; 
+    color: #000;            
+    min-height: 100vh;
+  }
+  
+  /* Header với tiêu đề và nút "Add Category" */
+  .categories-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  /* Nút thêm Category */
+  .btn-add {
+    background-color: #fff !important;
+    color: #000 !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 5px solid #000 !important;
+  }
+  
+  .btn-add:hover {
+    background-color: #f0f0f0 !important;
+  }
+  

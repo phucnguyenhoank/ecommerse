@@ -1,0 +1,57 @@
+/* Tổng layout chia theo hàng ngang */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.admin-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar chiếm một phần cố định */
+.sidebar3 {
+  width: 250px;
+  min-width: 250px;
+  background-color: #fff; 
+  color: #000;
+  height: auto;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+}
+
+/* Link trong sidebar */
+.sidebar3 a {
+  text-decoration: none; /* Bỏ gạch chân */
+  color: #000;
+  display: block;
+  padding: 10px 8px;
+  border-radius: 6px;
+  transition: background 0.2s ease-in-out;
+}
+
+.sidebar3 a:hover {
+  background-color: #d9d9d9; /* Hover hiệu ứng */
+  text-decoration: none; /* Vẫn không có gạch chân */
+}
+
+/* Danh sách không có dấu chấm */
+.sidebar3 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar3 li {
+  margin-bottom: 10px;
+}
+
+/* Nội dung chiếm phần còn lại */
+.content-wrapper {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f4f4f4;
+}

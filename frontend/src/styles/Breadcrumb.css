@@ -1,0 +1,22 @@
+.breadcrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 80px;
+  cursor: pointer;
+  background-color: black;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 0;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.breadcrumb-back {
+  display: flex;
+  align-items: center;
+}
+.breadcrumb-icon {
+  margin-right: 5px;
+}

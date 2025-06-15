@@ -1,0 +1,18 @@
+.sort-options {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/*.pagination {*/
+/*    position: absolute;*/
+/*    justify-content: center;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    padding: 20px;*/
+/*}*/
